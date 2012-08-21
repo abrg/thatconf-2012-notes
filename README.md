@@ -148,12 +148,6 @@ Organizing files for development
 I just popped in at the end.
 
 
-### Talk 3: Contextual Design
-##### Joe Johnston, @merhl
-##### http://www.merhl.com/?p=1059
-
-
-
 ***
 
 
@@ -199,7 +193,7 @@ Use logic-less views with a presenter object containing the view logic
 
 
 ### Talk 2: Javascript & Performance (1:00pm, Open Spaces)
-##### Lead: Indu ???, Epic Systems
+##### Lead: Indu Prakash, Epic Systems
 
 A conversation with 4 other folks about how Epic structures their proprietary JS arch
 and how they tune and maintain it.
