@@ -1,8 +1,10 @@
 # Thoughts from ThatConference 2012
 
 ## Day 1
-#### Keynote: Leon Gersing (No Spoon Software), "You" (archive video at: http://www.viddler.com/v/475571a7)
-#### @rubybuhhda
+#### Keynote: "You"
+#### Leon Gersing, (No Spoon Software, @rubybuhhda)
+
+Archive video of this talk at: http://www.viddler.com/v/475571a7 (Highly recommended viewing!)
 
 Relationship = you + n^*
 
