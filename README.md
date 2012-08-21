@@ -1,6 +1,6 @@
 # Thoughts from ThatConference 2012
 
-### Day 1
+## Day 1
 #### Keynote: Leon Gersing (No Spoon Software), "You" (archive video at: http://www.viddler.com/v/475571a7)
 #### @rubybuhhda
 
@@ -76,7 +76,7 @@ Takeaways
 
 ***
 
-### Day 2
+## Day 2
 #### Keynote: Scott Hanselman (Microsoft), "Information Overload - Scaling Yourself"
 #### http://www.hanselman.com
 
