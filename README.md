@@ -52,7 +52,7 @@ Takeaways
 ##### Slides: http://rwd.matthewcarver.com
 
 Responsive toolkit:
-* Best rapid prototyping library: (Foundation by Zurb)[http://foundation.zurb.com/]
+* Best rapid prototyping library: [Foundation by Zurb](http://foundation.zurb.com/)
 * CSS preprocessor (LESS, SASS or Compass)
 * 320 and up, responsive, mobile first framework
 * Modernizr
