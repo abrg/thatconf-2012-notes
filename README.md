@@ -95,7 +95,7 @@ Use Monday for vision, Friday for reflection
 
 Identify the data streams in your life: email, google, IM, snail mail, texts, phone, TV and prioritize your time in each one
 
-Try using the (Pomodoro Technique)[http://www.pomodorotechnique.com/]
+Try using the [Pomodoro Technique](http://www.pomodorotechnique.com/)
 * Concentrate on one thing for 25 min.
 * Measure time in terms of Pomoderos (ex: this task will take me 8 pomodoros to complete)
 * Be aware of the number and type of interruptions
@@ -170,16 +170,16 @@ Beware, Turing's "Chinese Room"
 Optimize for minimizing the cost of change
 DRY (dont repeat yourself) is about removing duplication of KNOWLEDGE not code
 
-(Now.js)[http://nowjs.com/]
+[Now.js](http://nowjs.com/)
 * framework for data transport and serialization
 
-(PouchDB)[http://pouchdb.com/]
+[PouchDB](http://pouchdb.com/)
 * run a CouchDB instance in the browser
 * syncable/replicable with CouchDB
 * great for offline/online apps
 * use filters to replicate on the current users data in the client, not whole db 
 
-(Flatiron)[http://flatironjs.org/]
+[Flatiron](http://flatironjs.org/)
 * An ORM without having to talk directly to db
 * client/server data modeling
 
