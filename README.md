@@ -1,7 +1,7 @@
 # Thoughts from ThatConference 2012
 
 ### Day 1
-#### Keynote: Leon Gersing, "You" (archive video at: http://www.viddler.com/v/475571a7)
+#### Keynote: Leon Gersing (No Spoon Software), "You" (archive video at: http://www.viddler.com/v/475571a7)
 #### @rubybuhhda
 
 Relationship = you + n^*
@@ -43,8 +43,8 @@ A framework for binding data to the DOM through:
 
 Takeaways
 * While knockout.js has an easier syntax it's not directly comparable to backbone.js
-* knockout.js is more for direct, on page form/DOM manipulation and data binding
-* knockout.js seems to have more limited capability than backbone.js
+* knockout.js is more for direct, on page form/DOM manipulation and data binding whereas backbone.js is more of an application framework
+* knockout.js uses data attributes to store pieces of data, this could get unruly in larger apps
 
 
 ### Talk 2: The Responsive Hangover - Life After The Buzz
@@ -76,7 +76,50 @@ Takeaways
 
 ***
 
-## Day 2
+### Day 2
+#### Keynote: Scott Hanselman (Microsoft), "Information Overload - Scaling Yourself"
+#### http://www.hanselman.com
+
+Effectiveness vs. Efficiency
+* Effectiveness = doing the right things
+* Efficiency = doing things right
+
+4 D's
+* Do it
+* Delegate it
+* Drop it
+* Defer it
+
+Try to identify 3 outcomes for the day/week/year
+Use Monday for vision, Friday for reflection
+
+Identify the data streams in your life: email, google, IM, snail mail, texts, phone, TV and prioritize your time in each one
+
+Try using the (Pomodoro Technique)[http://www.pomodorotechnique.com/]
+* Concentrate on one thing for 25 min.
+* Measure time in terms of Pomoderos (ex: this task will take me 8 pomodoros to complete)
+* Be aware of the number and type of interruptions
+  * observe, accept and schedule them or delete them
+  * there are internal and external types
+
+Don't be afraid to let someone else guide you in what ever it is you want to learn
+
+
+
+### Talk 2: Seven Ways to Cook Bacon While Camping and Using JavaScript (10:00am)
+##### Indu Prakash, Epic Systems
+##### http://www.epic.com/
+
+Epic chooses not to use external libraries in their javascript layer
+* They gain intimate code knowledge and better performance
+* But, they need a larger team and have to deal with changing browser runtimes
+
+
+
+
+
+
+
 
 ### http://thatconf.chrisjpowers.com/
 
