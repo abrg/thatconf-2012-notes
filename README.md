@@ -106,7 +106,7 @@ Don't be afraid to let someone else guide you in what ever it is you want to lea
 
 
 
-### Talk 2: Seven Ways to Cook Bacon While Camping and Using JavaScript (10:00am)
+### Talk 1: Seven Ways to Cook Bacon While Camping and Using JavaScript (10:00am)
 ##### Indu Prakash, Epic Systems
 ##### http://www.epic.com/
 
@@ -114,20 +114,88 @@ Epic chooses not to use external libraries in their javascript layer
 * They gain intimate code knowledge and better performance
 * But, they need a larger team and have to deal with changing browser runtimes
 
+Using Document Fragment to manipulate the DOM is more performant than innerHTML/documentElement
+
+Inactive browser tabs
+* Chrome still executes callbacks
+* IE does not execute them
 
 
 
+### Talk 2: Structuring Rich Client-Side Applications in Javascript
+##### Todd Gardner, @toddhgardner
+##### http://wocketware.com/
+##### Example App: https://github.com/WocketWare/soliloquy
+##### Slides: https://speakerdeck.com/u/toddhgardner/p/structuring-javascript-applications
+
+Design problems
+1. organization
+2. dependencies
+3. decay
+
+Testability
+* Sinon.js non-serverside AJAX, use it to test AJAX with a test libarary like QUnit
+
+Organizing files for development
+* Require.js
+* RequireOptimizer to min and concat scripts as part of a formal build process
 
 
+### Talk 2.5: Contextual Design
+##### Joe Johnston, @merhl
+##### http://www.merhl.com/?p=1059
+
+I just popped in at the end.
 
 
-### http://thatconf.chrisjpowers.com/
+### Talk 3: Contextual Design
+##### Joe Johnston, @merhl
+##### http://www.merhl.com/?p=1059
+
 
 
 ***
 
 
 ## Day 3
+
+### Talk 1: Sharing Code Between Client and Server with Node.js
+### Chris J Powers, Groupon
+### Slides: http://thatconf.chrisjpowers.com/
+
+Is code sharing the holy grail? He advocates for it but there are some concerns. There is no silver bullet.
+
+Frameworks to help
+* Meteor.js
+* Derby.js
+
+Beware, Turing's "Chinese Room"
+* everytime we use an abstration in our code, we don't really understand what we're doing
+* overtime, the magic frameworks stop being an asset and become a liability
+
+Optimize for minimizing the cost of change
+DRY (dont repeat yourself) is about removing duplication of KNOWLEDGE not code
+
+(Now.js)[http://nowjs.com/]
+* framework for data transport and serialization
+
+(PouchDB)[http://pouchdb.com/]
+* run a CouchDB instance in the browser
+* syncable/replicable with CouchDB
+* great for offline/online apps
+* use filters to replicate on the current users data in the client, not whole db 
+
+(Flatiron)[http://flatironjs.org/]
+* An ORM without having to talk directly to db
+* client/server data modeling
+
+View templates
+* Good: Mustache, Plates, Facile(?)
+* OK: EJS, ECO, Handlebars
+* LOUSY: Jade, Ember, KO
+
+Use logic-less views with a presenter object containing the view logic
+
 
 
 ### Talk 2: Javascript & Performance (1:00pm, Open Spaces)
@@ -147,6 +215,7 @@ Takeaways
   2. Max <link> elems = 32
       * http://social.msdn.microsoft.com/Forums/en-US/iewebdevelopment/thread/ad1b6e88-bbfa-4cc4-9e95-3889b82a7c1d/
       * http://nirlevy.blogspot.com/2007/06/internet-explorer-css-limit.html
+* (Sunspider JS benchmarker)[http://www.webkit.org/perf/sunspider/sunspider.html]
 
 
 ### Talk 3: Best Practices for Enterprise JS Apps (2:30pm)
